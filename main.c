@@ -19,7 +19,6 @@ int main(int argc,char *argv[])
 		return -1;
 	}
 	printf("the number is %d\n",a);
-	printf("the number is sb\n");
 	my_umap(file);
 	return (EXIT_SUCCESS);
 }
