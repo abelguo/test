@@ -20,10 +20,6 @@ int main(int argc,char *argv[])
 	}
 	printf("the number is %d\n",a);
 	printf("the number is %d\n",a);
-	printf("the number is %d\n",a);
-	printf("the number is %d\n",a);
-	printf("the number is %d\n",a);
-	printf("the number is %d\n",a);
 	my_umap(file);
 	return (EXIT_SUCCESS);
 }
