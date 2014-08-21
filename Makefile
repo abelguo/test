@@ -1,4 +1,5 @@
 TARGETFILE=libreadfile.so.1.0 libuart.so.1.0
+-include test.m
 FILE=$(patsubst lib%.so.1.0,%.o,$(TARGETFILE))
 GCC:=gcc
 FLAGS=-Wall -shared -Wl,-rpath,./ -o
@@ -14,4 +15,9 @@ clean:
 	for rmfile in $$file;\
 	do\
 	   rm "$$rmfile";\
-	done;\
+	done;
+ifdef myname
+	@echo "$(myname)"
+else
+	@echo "have no define"
+endif
