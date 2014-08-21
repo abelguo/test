@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a.out
 Babylon_dictionariy
 buf
@@ -84,3 +85,9 @@ time.c
 Ubuntu One
 untitledw
 Videos
+=======
+test
+====
+hello  this is my frist github test!
+test file
+>>>>>>> d8e5711d72f1e64918e5a2088a6bd59671e32715
